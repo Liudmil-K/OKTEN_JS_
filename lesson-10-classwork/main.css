@@ -1,0 +1,20 @@
+div {
+    margin: 10px;
+    display: flex;
+}
+
+button {
+    cursor: pointer;
+    background: yellow;
+    border: 2px solid blue;
+}
+
+input,
+button,
+table {
+    border: 2px solid blue;
+}
+
+td {
+    border: 2px solid yellow;
+}

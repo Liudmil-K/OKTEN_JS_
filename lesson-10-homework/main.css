@@ -1,0 +1,17 @@
+.text {
+    margin: 30px;
+    column-gap: 20px;
+    display: flex;
+}
+
+.menu {
+    margin: 10px;
+}
+
+.menu.hidden ul {
+    display: none;
+}
+
+.pHide {
+    display: none;
+}
