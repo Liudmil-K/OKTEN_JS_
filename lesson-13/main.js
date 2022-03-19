@@ -11,7 +11,6 @@ setTimeout (() => {
     }, 500);
 }, 500);
 
-
 let promise = new Promise ((resolve, reject) => {
     setTimeout (() => {
         let counter = 0;
@@ -19,7 +18,6 @@ let promise = new Promise ((resolve, reject) => {
         resolve (counter);
     }, 2000)
 });
-
 promise
     .then(counter => {
         return new Promise ((resolve, reject) => {
@@ -67,7 +65,6 @@ promise
             }, 500)
         })
     })
-
 
 let counter = 0;
 console.log('Мій графік', counter);
