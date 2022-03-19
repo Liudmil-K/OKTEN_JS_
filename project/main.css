@@ -1,0 +1,46 @@
+/*Стилизация проекта -*/
+/*index.html - все блоки с user - по 2 в ряд. кнопки/ссылки находяться под информацией про user.*/
+* {
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+}
+
+.usersDiv {
+    margin: 100px;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cadetblue;
+    border-radius: 50px;
+    font-size: 50px;
+}
+
+.userDiv {
+    margin: 10px calc(25% - 350px);
+    display: flex;
+    background: cornsilk;
+    border-radius: 50px;
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.userDiv:hover,
+.link:hover {
+    background: #5e7272;
+}
+
+.userDiv:hover {
+    border-radius: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #5e7272;
+}
+
+.link:hover {
+    color: aliceblue;
+}
