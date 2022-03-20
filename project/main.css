@@ -13,15 +13,15 @@
     flex-wrap: wrap;
     background-color: cadetblue;
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .userDiv {
-    margin: 10px calc(25% - 350px);
+    margin: 20px calc(25% - 200px);
     display: flex;
     background: cornsilk;
     border-radius: 50px;
-    width: 700px;
+    width: 400px;
     height: 100px;
     align-items: center;
     justify-content: center;

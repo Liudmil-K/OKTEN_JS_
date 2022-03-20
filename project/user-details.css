@@ -1,0 +1,93 @@
+/*Стилизация проекта -*/
+/*user-details.html - блок с информацией про user вверху страницы. Кнопка ниже, на 90% ширины страницы, по центру.*/
+/*блоки с краткой информацией про post - в ряд по 5 объектов.*/
+
+* {
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+}
+
+.userDiv,
+.userDiv p,
+.buttonDiv,
+.buttonDiv button,
+.postDiv,
+.title,
+.bodis {
+    background-color: cadetblue;
+}
+
+.userDiv {
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.name {
+    color: black;
+    font-size: 40px;
+}
+
+.contacts {
+    margin: 50px 0 20px;
+}
+
+.contacts,
+.company {
+    color: white;
+    font-size: 20px;
+}
+
+.buttonDiv {
+    margin: 20px auto;
+}
+
+.buttonDiv button {
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+    font-size: 50px;
+    border: none;
+    cursor: grab;
+}
+
+.buttonDiv button:hover {
+    background: #d8e4ef;
+    box-shadow: inset 0 0 0 4px dimgrey;
+    border-radius: 20px;
+}
+
+.postsDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.postDiv {
+    width: 300px;
+    margin: 20px calc(10% - 150px);
+    padding-bottom: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+}
+
+.link,
+.link:hover {
+    background: #5e7272;
+}
+
+.title {
+    padding: 30px 50px 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.bodis {
+    padding: 0 50px;
+    font-size: 15px;
+    color: white;
+}
