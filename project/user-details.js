@@ -36,8 +36,8 @@ postsButton.onclick = function () {
                 let linkPost = document.createElement ('a');
                 linkPost.classList.add ('link');
                 linkPost.innerHTML = `
-                    <h3 class="title">${item.title}</h3>
-                    <p class="bodis">${item.body}</p>
+                    <h3 class="titles">${item.title}</h3>
+                    <p class="bodys">${item.body}</p>
                     `;
                 linkPost.href = `./post-details.html?data=${JSON.stringify (item)}`;
                 postDiv.appendChild (linkPost);
