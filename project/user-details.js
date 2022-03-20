@@ -4,6 +4,7 @@
 // (для получения постов используйте эндпоинт https://jsonplaceholder.typicode.com/users/USER_ID/posts)
 // 6 Каждому посту добавить кнопку/ссылку, при клике на которую происходит переход на страницу post-details.html, которая имеет детальную информацию про текущий пост.
 
+
 let user = JSON.parse (new URL (location.href).searchParams.get ('data'));
 
 let userDiv = document.createElement ('div');
@@ -45,6 +46,7 @@ postsButton.onclick = function () {
                 document.body.appendChild (postsDiv);
             }
         });
+
     postsButton.hidden = true;
     buttonDiv.hidden = true;
 };
