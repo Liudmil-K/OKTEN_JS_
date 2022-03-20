@@ -19,12 +19,13 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
         let commentsDiv = document.createElement ('div');
         commentsDiv.classList.add ('commentsDiv');
         for (let item of items) {
-            let comment = document.createElement('div');
-            comment.innerHTML = `
+            let commentDiv = document.createElement('div');
+            commentDiv.classList.add ('commentDiv');
+            commentDiv.innerHTML = `
                     <h3 class="titles">${item.name}</h3>
                     <p class="bodys">${item.body}</p>
                     `;
-            commentsDiv.appendChild(comment);
+            commentsDiv.appendChild(commentDiv);
             document.body.appendChild (commentsDiv);
         }
     });

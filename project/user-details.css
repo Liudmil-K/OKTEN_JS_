@@ -13,8 +13,8 @@
 .buttonDiv,
 .buttonDiv button,
 .postDiv,
-.title,
-.bodis {
+.titles,
+.bodys {
     background-color: cadetblue;
 }
 
@@ -75,15 +75,15 @@
     color: black;
 }
 
-.link,
-.link:hover {
-    background: #5e7272;
-}
-
 .titles {
     padding: 30px 50px 10px;
     font-size: 20px;
     color: black;
+}
+
+.titles:hover,
+.bodys:hover {
+    background: #5e7272;
 }
 
 .bodys {

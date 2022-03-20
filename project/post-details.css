@@ -1,2 +1,60 @@
 /*post-details.html - блок с информацией про пост вверху. Комментарии - по 4 в ряд.*/
 /*Все без исключения элементы, который характеризируют user,post,comment  визуализировать, так, что бы было видно их блоки (дать задний фон + margin. Иными словами - крайне четкая сетка)*/
+
+/*Стилизация проекта -*/
+/*user-details.html - блок с информацией про user вверху страницы. Кнопка ниже, на 90% ширины страницы, по центру.*/
+/*блоки с краткой информацией про post - в ряд по 5 объектов.*/
+
+* {
+    margin: 0;
+    padding: 0;
+    background: cornsilk;
+}
+
+.postDiv,
+.postDiv p,
+.postDiv h2,
+.commentDiv,
+.titles,
+.bodys {
+    background-color: cadetblue;
+}
+
+.postDiv {
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.id,
+.content {
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.name {
+    color: black;
+    font-size: 40px;
+}
+
+.commentsDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.commentDiv {
+    width: 300px;
+    margin: 20px calc(10% - 150px);
+}
+
+.titles {
+    margin: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.bodys {
+    margin: 30px;
+    font-size: 15px;
+    color: white;
+}
